@@ -3,8 +3,8 @@
 ## Required Artifacts
 
 - Final report exported to PDF.
-- GitHub repository link.
-- Deployed demo link if available.
+- GitHub repository link added: [https://github.com/josuekb09/civicguard-africa](https://github.com/josuekb09/civicguard-africa).
+- Deployed demo link added: [https://civic-guard-africa.vercel.app](https://civic-guard-africa.vercel.app/).
 - Working local build.
 - Demo script for the live presentation.
 - Benchmark dataset available in the repository.
@@ -43,9 +43,9 @@ Code of conduct and attendance are logistics, not part of the app, but they must
 ## Final Pre-Submission Checklist
 
 - [ ] Report exported as PDF.
-- [ ] GitHub repository link added to report.
-- [ ] Demo link added if available.
-- [ ] README updated.
+- [x] GitHub repository link added to report.
+- [x] Demo link added.
+- [x] README updated.
 - [ ] Build passes.
 - [ ] Screenshots generated and inserted or referenced in `docs/report.md`.
 - [ ] Demo script rehearsed.

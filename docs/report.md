@@ -154,8 +154,8 @@ The main contribution is not automatic truth detection. The contribution is an e
 
 ## Code and Data
 
-Code repository: [Add GitHub repository link]  
-Deployed demo: [Add deployed demo link if available]  
+Code repository: [https://github.com/josuekb09/civicguard-africa](https://github.com/josuekb09/civicguard-africa)  
+Deployed demo: [https://civic-guard-africa.vercel.app](https://civic-guard-africa.vercel.app/)  
 Data/Datasets: Local mock incidents and benchmark dataset in the repository  
 Figures/Screenshots: Main figures and appendix screenshots are referenced from `public/screenshots`.
 

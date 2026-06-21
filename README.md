@@ -2,8 +2,8 @@
 
 AI-assisted election disinformation triage and multilingual safety benchmarking for African contexts.
 
-GitHub repository: [Add GitHub link]  
-Deployed demo: [Add deployed demo link if available]
+GitHub repository: [https://github.com/josuekb09/civicguard-africa](https://github.com/josuekb09/civicguard-africa)  
+Deployed demo: [https://civic-guard-africa.vercel.app](https://civic-guard-africa.vercel.app/)
 
 ## Submission Framing
 
