@@ -4,6 +4,7 @@
 - [ ] `npm run lint` passes.
 - [x] GitHub link added to `README.md` and `docs/report.md`.
 - [x] Deployed demo link added.
+- [x] Reference placeholders fixed in `docs/report.md`.
 - [ ] Report exported as PDF.
 - [x] Screenshots generated in `public/screenshots`.
 - [ ] Screenshots visually verified before exporting the PDF.
@@ -18,7 +19,6 @@
 
 ## Manual Items Before Upload
 
-- Replace placeholder reference URLs in `docs/report.md`.
 - Insert or reference final screenshots.
 - Confirm author and affiliation wording.
 - Export `docs/report.md` to PDF.

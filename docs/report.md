@@ -30,11 +30,11 @@ This project contributes:
 
 The Global South AI Safety Hackathon frames AI safety as a practical, context-sensitive challenge that can include tools, benchmarks, policy analysis, and research artifacts. CivicGuard follows this framing by combining a working prototype, benchmark dataset, and report.
 
-"Toward an African Agenda for AI Safety" highlights deployment context, institutional capacity, governance, language gaps, and infrastructure dependencies. CivicGuard applies this lens to election disinformation triage and multilingual evaluation. Placeholder URL: [Add exact source URL].
+"Toward an African Agenda for AI Safety" highlights deployment context, institutional capacity, governance, language gaps, and infrastructure dependencies. CivicGuard applies this lens to election disinformation triage and multilingual evaluation.
 
-CIPESA / THRAETS work on safeguarding African elections against AI-generated disinformation highlights synthetic media, platform manipulation, and election-period information disorder. CivicGuard responds with a lightweight monitoring workflow and safety benchmark. Placeholder URL: [Add exact source URL].
+CIPESA / THRAETS work on safeguarding African elections against AI-generated disinformation highlights synthetic media, platform manipulation, and election-period information disorder. CivicGuard responds with a lightweight monitoring workflow and safety benchmark.
 
-UbuntuGuard is relevant as an African-context safety project. Linguistic Safety Robustness Benchmark, HarmBench, and HELM show how benchmarks can evaluate model safety and robustness. AfriSenti, IrokoBench, and AfroBench show why African-language NLP and evaluation coverage matter. Placeholder URLs: [Add exact source URLs].
+UbuntuGuard is relevant as an African-context safety project. Linguistic Safety Robustness Benchmark, HarmBench, and HELM show how benchmarks can evaluate model safety and robustness. AfriSenti, IrokoBench, and AfroBench show why African-language NLP and evaluation coverage matter.
 
 The gap is that existing work often covers general AI safety, African-language NLP, red-teaming, multilingual benchmarks, or disinformation monitoring separately. CivicGuard connects election incident monitoring with multilingual AI safety benchmarking in one civic-facing, explainable MVP.
 
@@ -165,25 +165,27 @@ Josue Kabuya led the project concept, product design, implementation direction, 
 
 ## References
 
-Apart Research. Global South AI Safety Hackathon materials. Placeholder URL: [Add exact source URL].
+Apart Research. 2026. Global South AI Safety Hackathon materials. https://apartresearch.com/sprints
 
-Toward an African Agenda for AI Safety. Placeholder URL: [Add exact source URL].
+Segun et al. 2025. Toward an African Agenda for AI Safety. arXiv:2508.13179. https://doi.org/10.48550/arXiv.2508.13179
 
-CIPESA / THRAETS. Safeguarding African elections against AI-generated disinformation. Placeholder URL: [Add exact source URL].
+CIPESA / THRAETS. 2025. Safeguarding African Democracies Against AI-Driven Disinformation. CIPESA. https://cipesa.org/2025/11/safeguarding-african-democracies-against-ai-driven-disinformation/
 
-UbuntuGuard. Placeholder URL: [Add exact source URL].
+Abdullahi et al. 2026. UbuntuGuard: A Culturally-Grounded Policy Benchmark for Equitable AI Safety in African Languages. arXiv:2601.12696. https://doi.org/10.48550/arXiv.2601.12696
 
-Linguistic Safety Robustness Benchmark. Placeholder URL: [Add exact source URL].
+Faruna. 2026. LSR: Linguistic Safety Robustness Benchmark for Low-Resource West African Languages. arXiv:2603.19273. https://doi.org/10.48550/arXiv.2603.19273
 
-HarmBench. Placeholder URL: [Add exact source URL].
+Mazeika et al. 2024. HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal. arXiv:2402.04249. https://doi.org/10.48550/arXiv.2402.04249
 
-HELM: Holistic Evaluation of Language Models. Placeholder URL: [Add exact source URL].
+Liang et al. 2022. Holistic Evaluation of Language Models. arXiv:2211.09110. https://doi.org/10.48550/arXiv.2211.09110
 
-AfriSenti. Placeholder URL: [Add exact source URL].
+Muhammad et al. 2023. AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages. arXiv:2302.08956. https://doi.org/10.48550/arXiv.2302.08956
 
-IrokoBench. Placeholder URL: [Add exact source URL].
+Muhammad et al. 2023. SemEval-2023 Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval). arXiv:2304.06845. https://doi.org/10.48550/arXiv.2304.06845
 
-AfroBench. Placeholder URL: [Add exact source URL].
+Adelani et al. 2024. IrokoBench: A New Benchmark for African Languages in the Age of Large Language Models. arXiv:2406.03368. https://doi.org/10.48550/arXiv.2406.03368
+
+Ojo et al. 2023. AfroBench: How Good are Large Language Models on African Languages? arXiv:2311.07978. https://doi.org/10.48550/arXiv.2311.07978
 
 ## LLM Usage Statement
 
