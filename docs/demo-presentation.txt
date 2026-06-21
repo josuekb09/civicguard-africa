@@ -1,0 +1,133 @@
+CivicGuard Africa Demo Presentation
+
+Opening
+
+Hi everyone. This is CivicGuard Africa, an AI-assisted election disinformation triage and benchmark platform built for African civic contexts.
+
+The problem we are addressing is that election disinformation can spread faster than verification teams can respond. In African contexts, this is even harder because suspicious claims often move through WhatsApp groups, screenshots, voice notes, local languages, and code-switched community speech.
+
+English-only AI safety checks are not enough for this environment.
+
+What CivicGuard Does
+
+CivicGuard helps journalists, students, fact-checkers, civic-tech organisations, and community verifiers submit suspicious election-related content, generate a triage report, review the case, and monitor civic risk trends.
+
+The MVP is local-first. It does not use Supabase, authentication, paid APIs, or external AI calls yet. The triage logic is deterministic and explainable, so judges can see exactly how the system works.
+
+Demo Flow
+
+First, I start on the Home page. This explains the problem, the workflow, and the safety principle behind the project.
+
+Next, I open Submit Incident.
+
+I click Load demo election case. This fills in a safe example: a code-switched WhatsApp message claiming that a polling station has moved on voting day, without any official source.
+
+Then I click Generate triage report.
+
+CivicGuard creates a new incident, runs deterministic risk scoring, saves it locally in the browser, and opens the triage report.
+
+The report shows:
+
+- Risk level
+- Harm category
+- Confidence estimate
+- Explanation
+- Verification checklist
+- Recommended next action
+- Reviewer next steps
+- Safety disclaimer
+
+The key safety point is this:
+
+CivicGuard does not determine truth automatically. It supports human verification by prioritising and structuring suspicious civic content.
+
+Community Review
+
+After the report, I open the Community Review page.
+
+The new submitted incident appears in the review queue alongside seeded demo incidents. Reviewers can filter by risk or status, update the review status, and add reviewer notes.
+
+This shows how CivicGuard supports human review instead of replacing it.
+
+Dashboard
+
+Next, I open the Dashboard.
+
+The dashboard includes the submitted incident in the metrics and charts. It shows total incidents, high-risk incidents, pending reviews, confidence, incidents by country, language, harm category, and risk level.
+
+There is also a high-risk incidents table, a reset demo data button, and an export incidents as JSON button.
+
+This makes the MVP useful as a civic risk monitoring tool.
+
+Benchmark Lab
+
+The Benchmark Lab is the second major part of the project.
+
+It shows that CivicGuard is not only a monitoring tool. It is also an AI safety evaluation and benchmarking artifact.
+
+The benchmark tests whether AI systems respond safely in African election contexts across multiple languages and harm categories.
+
+It includes examples from:
+
+- South Africa
+- Kenya
+- Nigeria
+- DRC
+- Tanzania
+
+It includes languages such as:
+
+- English
+- French
+- Swahili
+- isiXhosa
+- isiZulu
+- Afrikaans
+- Hausa / English code-switched
+- Swahili / English code-switched
+
+The harm categories include voter suppression, false results, candidate impersonation, ethnic or religious targeting, procedural misinformation, intimidation or violence, synthetic media claims, and public-service misinformation.
+
+The benchmark labels responses as:
+
+- Safe refusal
+- Safe completion
+- Partial compliance
+- Unsafe compliance
+- Needs review
+
+The dataset can be exported as JSON or CSV for research reports, civic monitoring work, and future model evaluation.
+
+Why This Matters
+
+What makes CivicGuard different is that it combines four layers:
+
+1. Monitoring
+2. Triage
+3. Human verification
+4. Benchmarking
+
+It is designed specifically for African election contexts, multilingual content, and coded or code-switched language.
+
+It does not claim automatic truth detection. It helps humans prioritise, verify, and document suspicious civic content.
+
+What Comes Next
+
+After the hackathon, this MVP can be extended with:
+
+- Supabase for shared incident storage
+- Authentication and reviewer roles
+- Evidence uploads
+- Fact-checking partner workflows
+- Carefully integrated AI APIs
+- Expanded benchmark datasets for more African languages and contexts
+
+Closing
+
+CivicGuard Africa is a practical, safe, and explainable MVP for election disinformation triage and AI safety benchmarking.
+
+It helps civic teams move faster without removing human judgment from the process.
+
+The core principle remains:
+
+CivicGuard does not determine truth automatically. It supports human verification by prioritising and structuring suspicious civic content.
